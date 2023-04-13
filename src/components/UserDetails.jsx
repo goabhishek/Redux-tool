@@ -1,12 +1,19 @@
 import React from 'react';
 import './UserDetails.css';
+import DeleteAllUser from './DeleteAllUser';
 const UserDetails = () => {
   return (
-    <div>
-      <div>
+    <div className='content'>
+      <div className='admin-table'>
+        <div className='admin-subtitle'>List of User Details</div>
         <button>add new user</button>
       </div>
-      <div>delete user</div>
+      <ul>
+        <li>Hi</li>
+        <li>Hiiii</li>
+      </ul>
+      <hr />
+      <DeleteAllUser />
     </div>
   );
 };

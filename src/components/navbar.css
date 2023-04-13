@@ -1,0 +1,38 @@
+.navbar {
+  /* justify-content: space-between; */
+  background-color: rgb(37, 19, 19);
+  color: red;
+  display: flex;
+  align-items: center;
+  text-shadow: 0cm;
+  padding: 10px;
+  width: 70%;
+  flex-wrap: wrap;
+  border-radius: 30%;
+  /* flex-direction: row; */
+}
+.nav {
+  display: block;
+  width: 40%;
+}
+
+.main {
+  font: bold;
+}
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #0f595c;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  pointer-events: stroke;
+}
+li {
+  margin-left: 40px;
+}
